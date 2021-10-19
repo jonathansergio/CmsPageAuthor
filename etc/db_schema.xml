@@ -1,0 +1,7 @@
+<schema xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:framework:Setup/Declaration/Schema/etc/schema.xsd">
+    <table name="cms_page" resource="default" engine="innodb">
+        <column xsi:type="varchar" name="author" length="100" nullable="false" identity="false"
+                comment="Author"/>
+    </table>
+</schema>
